@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BackgroundAtlas
+  m_EditorData:
+    textureSettings:
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      colorSpace: 1
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+    platformSettings: []
+    packingParameters:
+      paddingPower: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    packedHash:
+      serializedVersion: 2
+      Hash: b5a86b98a61aa47b784ec9665bf438d1
+    variantMultiplier: 1
+    bindAsDefault: 1
+    finalFormat: 4
+    hashString: b5a86b98a61aa47b784ec9665bf438d1
+    totalSpriteSurfaceArea: 1346593
+    packables:
+    - {fileID: 102900000, guid: 090c288d3b63f4349abd138d5e8c0a54, type: 3}
+    packedSpriteRenderDataKeys:
+    - 09f4052fc0600514994ff86709b96cc9: 21300000
+    - 129895c6986f472439537920f8a45a2d: 21300000
+    - 7e897e799cb8b914bace91bc3913383f: 21300000
+    - fd57cfe4b7719604199f8dd7550d5415: 21300000
+    - 673df24caa853bc4c8e316e91d942b0b: 21300000
+    - cb6844da1bbb7e2438db9c525de69cb6: 21300000
+    - 7ca88b2f31d01c146826c6b6a4734f9a: 21300000
+    - 42a19286b0c83d54e87f4fc4e7d2ba19: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 09f4052fc0600514994ff86709b96cc9, type: 3}
+  - {fileID: 21300000, guid: 129895c6986f472439537920f8a45a2d, type: 3}
+  - {fileID: 21300000, guid: 7e897e799cb8b914bace91bc3913383f, type: 3}
+  - {fileID: 21300000, guid: fd57cfe4b7719604199f8dd7550d5415, type: 3}
+  - {fileID: 21300000, guid: 673df24caa853bc4c8e316e91d942b0b, type: 3}
+  - {fileID: 21300000, guid: cb6844da1bbb7e2438db9c525de69cb6, type: 3}
+  - {fileID: 21300000, guid: 7ca88b2f31d01c146826c6b6a4734f9a, type: 3}
+  - {fileID: 21300000, guid: 42a19286b0c83d54e87f4fc4e7d2ba19, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - skybox_sideClouds
+  - skybox_side
+  - skybox_bottom
+  - skybox_sideHills
+  - skybox_top
+  - clouds
+  - sun
+  - moon
+  m_Tag: BackgroundAtlas
+  m_IsVariant: 0
