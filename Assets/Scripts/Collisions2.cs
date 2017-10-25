@@ -40,6 +40,11 @@ public class Collisions2 : MonoBehaviour
         ResetState();
     }
 
+    public void MyStart()
+    {
+
+    }
+
     void ResetState()
     {
         wasGroundedLastFrame = isGrounded;
@@ -126,6 +131,12 @@ public class Collisions2 : MonoBehaviour
         if (isCeil) isFalling = false;
         if (isCeil && !wasCeilLastFrame) justGotCeil = true;
         if (!isCeil && wasCeilLastFrame) justNotCeil = true;
+    }
+
+    public void Flip (bool face)
+    {
+        if(face) wallBoxPos.x = Mathf.Abs(wallBoxPos.x);
+
     }
 
     private void OnDrawGizmos ()
