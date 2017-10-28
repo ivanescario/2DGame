@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(Collisions2))]
+[CustomEditor(typeof(Collisions))]
 public class CollisionInspector : Editor
 {
     static bool stateFoldout;
@@ -12,7 +12,7 @@ public class CollisionInspector : Editor
     public override void OnInspectorGUI()
     {
         //base.OnInspectorGUI(); // Si se deja escrito, no afecta. Se visualiza de manera normal la información en el inspector.
-        Collisions2 col = (Collisions2)target;
+        Collisions col = (Collisions)target;
 
         GUIStyle booleanText = new GUIStyle();
 
