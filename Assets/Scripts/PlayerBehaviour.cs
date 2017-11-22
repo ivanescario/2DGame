@@ -132,9 +132,8 @@ public class PlayerBehaviour : MonoBehaviour
     {
         rend.flipX = !rend.flipX;
         isFacingRight = !isFacingRight;
-        //collisions.Flip(isFacingRight);
+        collisions.wallBoxPos.x = -collisions.wallBoxPos.x;
     }
-
 
     #region Public functions
     public void SetAxis(Vector2 inputAxis)
@@ -153,7 +152,6 @@ public class PlayerBehaviour : MonoBehaviour
                 else Jump(jumpWalkForce);
             }
         }
-
     }
     public void Damage(int hit)
     {
